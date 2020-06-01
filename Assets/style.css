@@ -1,4 +1,17 @@
 
-.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background-color: orangered;
-} 
+.main-content-block {
+    background-color: grey;
+}
+
+.bio-img {
+    float: left;
+}
+
+.home-page {
+    background-color: lemonchiffon;
+    height: 100%;
+}
+
+.body-bg-clr {
+    background-color: lemonchiffon;
+}
