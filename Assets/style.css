@@ -1,62 +1,72 @@
-
+/* Container with margins to separate from the navbar */
 .main-content-block {
-   padding-top: 25px;
-   margin-top: 50px;
+  padding-top: 25px;
+  margin-top: 50px;
 }
 
+/* Bio-img floats left with a right margin to make text more legible */
 .bio-img {
-    float: left;
-    margin-right: 20px;
-    width: 250px;
-    height: 300px;
+  float: left;
+  margin-right: 20px;
+  width: 250px;
+  height: 300px;
 }
 
+/* Google font rubik size 20 */
 p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
 }
 
+/* Google font Rubik */
 h1 {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
+/* Found background image from coolbackgrounds.io*/
 body {
-    background-image: url("cool-background.png");
-  }
+  background-image: url("cool-background.png");
+}
 
+/* Navbar brand "Brad Williams" in grey to more legible */
 .navbar-brand {
-    background-color: #676869;
-    margin: 10px;
-    padding: 10px;
-    border-style: inset;
-    border-color: whitesmoke;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
+  background-color: #676869;
+  margin: 10px;
+  padding: 10px;
+  border-style: inset;
+  border-color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
-
+/* Navbar with dark bg */
 .bg-light {
-    background-color: #222!important;
+  background-color: #222 !important;
 }
 
-
+/* Navbar buttons with grey bg font and margin left to space buttons out a bit. 
+Text is center and bolded to be better visible on collapsed menu */
 .navbar-light .navbar-nav .nav-link {
-    border-style: inset;
-    background-color: #676869;
-    font-family: 'Rubik', sans-serif;
-    border-color: whitesmoke;
-    color: rgba(0, 0, 0, 5);
-    margin-left: 5px;
-    text-align: center;
-    font-weight: 500;
+  border-style: inset;
+  background-color: #676869;
+  font-family: "Rubik", sans-serif;
+  border-color: whitesmoke;
+  color: rgba(0, 0, 0, 5);
+  margin-left: 5px;
+  text-align: center;
+  font-weight: 500;
 }
 
+/*Hamburger menu-collapsed*/
 .navbar-light .navbar-toggler {
-    background-color: #676869!important;
-    text-align: center;
+  background-color: #676869 !important;
+  text-align: center;
+  border-style: inset;
+  border-color: whitesmoke;
 }
 
+/* Increased size of hr (line break) */
 hr {
-    height: 2px;
-    background-color: lightgray;
+  height: 2px;
+  background-color: lightgray;
 }
