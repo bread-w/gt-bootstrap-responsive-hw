@@ -14,11 +14,26 @@ body {
     background-image: url("cool-background.png");
   }
 
-.bg-light {
-    background-color: aquamarine;
+.navbar-brand {
+    background-color: #676869;
+    margin: 10px;
+    padding: 10px;
+    border-style: inset;
+    border-color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: whitesmoke;
 }
 
-.navbar-brand {
-    background-color: aquamarine;
+
+.bg-light {
+    background-color: #222!important;
 }
- 
+
+
+.navbar-light .navbar-nav .nav-link {
+    border-style: inset;
+    background-color: #676869;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-color: whitesmoke;
+    color: rgba(0, 0, 0, 5)
+}
