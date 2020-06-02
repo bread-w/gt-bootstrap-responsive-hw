@@ -1,17 +1,24 @@
 
 .main-content-block {
-    background-color: grey;
+    background-color: whitesmoke;
+   padding-top: 25px;
+   margin-top: 50px;
 }
 
 .bio-img {
     float: left;
+    margin-right: 20px;
 }
 
-.home-page {
-    background-color: lemonchiffon;
-    height: 100%;
+body {
+    background-image: url("cool-background.png");
+  }
+
+.bg-light {
+    background-color: aquamarine;
 }
 
-.body-bg-clr {
-    background-color: lemonchiffon;
+.navbar-brand {
+    background-color: aquamarine;
 }
+ 
