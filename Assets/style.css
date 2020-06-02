@@ -1,6 +1,5 @@
 
 .main-content-block {
-    background-color: whitesmoke;
    padding-top: 25px;
    margin-top: 50px;
 }
@@ -8,6 +7,17 @@
 .bio-img {
     float: left;
     margin-right: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -20,8 +30,8 @@ body {
     padding: 10px;
     border-style: inset;
     border-color: whitesmoke;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -33,7 +43,20 @@ body {
 .navbar-light .navbar-nav .nav-link {
     border-style: inset;
     background-color: #676869;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
     border-color: whitesmoke;
-    color: rgba(0, 0, 0, 5)
+    color: rgba(0, 0, 0, 5);
+    margin-left: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #676869!important;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: lightgray;
 }
