@@ -70,3 +70,9 @@ hr {
   height: 2px;
   background-color: lightgray;
 }
+
+.btn-primary {
+  background-color: #676869;
+  border-style: inset;
+  border-color: #222;
+}
