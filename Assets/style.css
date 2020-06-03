@@ -110,6 +110,8 @@ footer {
 .footer {
   margin-right: 10px;
   float: right;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 /* footer  */
 .email {
