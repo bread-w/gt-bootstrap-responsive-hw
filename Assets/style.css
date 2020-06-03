@@ -1,3 +1,4 @@
+/* Body class position set to ensure sticky footer */
 .body-bg-clr {
   position: relative;
 }
@@ -22,6 +23,7 @@ p {
   font-size: 16px;
 }
 
+/* formatted image text to cover image */
 .img-text {
   position: relative;
   bottom: 15%;
@@ -77,6 +79,7 @@ Text is center and bolded to be better visible on collapsed menu */
   text-align: center;
   border-style: inset;
   border-color: whitesmoke;
+  font-weight: 500;
 }
 
 /* Increased size of hr (line break) */
@@ -84,15 +87,15 @@ hr {
   height: 2px;
   background-color: lightgray;
 }
-
+/* Changed button colors and added fonts */
 .btn-primary {
   background-color: #676869;
   border-style: inset;
   border-color: #222;
 }
-
+/* footer set to fixed position */
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -100,11 +103,18 @@ footer {
   background-color: #222;
   color: #676869;
   font-family: "Rubik", sans-serif;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
+/* footer copyright text */
 .footer {
+  margin-right: 10px;
+  float: right;
+}
+/* footer  */
+.email {
   margin-left: 10px;
+  float: left;
 }
 
 .port-col  {
