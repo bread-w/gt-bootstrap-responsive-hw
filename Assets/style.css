@@ -15,7 +15,7 @@
 /* Google font rubik size 20 */
 p {
   font-family: "Rubik", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Google font Rubik */
@@ -77,18 +77,18 @@ hr {
   border-color: #222;
 }
 
-.port-img-left {
- width: 100%;
- max-width: 350px;
- max-height: 350px;
- margin: 30px;
- float: left;
+.port-col  {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+  margin: 20px;
 }
 
-.port-img-right {
-  width: 100%;
-  max-width: 350px;
-  max-height: 350px;
-  margin: 30px;
-  float: right;
- }
+@media screen and (max-width: 980px) {
+  .port-col  {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      margin: 20px;
+  }
+}
