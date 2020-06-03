@@ -15,8 +15,8 @@ Clone the GitHub repository and open the index.html in the default broswer (goog
 ## Usage
 
 ![Brad William's About Me](./Assets/brad-williams-about.png)
-![Brad William's Portfolio](brad-williams-portfolio.png)
-![Brad William's About Me](brad-williams-contact.png)
+![Brad William's Portfolio](./Assets/brad-williams-portfolio.png)
+![Brad William's About Me](./Assets/brad-williams-contact.png)
 
 ## Credits
 
@@ -34,6 +34,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## URL
 
-[Link to deployed webpage]()
+[Link to deployed webpage](https://bread-w.github.io/gt-bootstrap-responsive-hw/)
 
-[Link to GitHub repository]()
+[Link to GitHub repository](https://github.com/bread-w/gt-bootstrap-responsive-hw)
