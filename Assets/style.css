@@ -79,6 +79,7 @@ Text is center and bolded to be better visible on collapsed menu */
   text-align: center;
   border-style: inset;
   border-color: whitesmoke;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
 
@@ -110,6 +111,8 @@ footer {
 .footer {
   margin-right: 10px;
   float: right;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 /* footer  */
 .email {
