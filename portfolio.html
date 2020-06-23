@@ -10,27 +10,17 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assets/style.css" />
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body class="body-bg-clr">
     <main>
-      <!-- Navbar starts here-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Brad Williams</a>
         <button
@@ -54,76 +44,133 @@
           </div>
         </div>
       </nav>
-      <!-- Navbar ends here -->
-      <!-- Container begins here -->
-      <section class="container main-content-block">
-        <!-- Content starts here -->
+      <main class="container" id="port-container">
+        <header class="row">
+          <div class="col">
+            <h1 id="portfolio-pg">Portfolio</h1>
+          </div>
+        </header>
+        <hr />
         <segment class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
-            <!-- Jumbotron begins here -->
-            <div class="jumbotron">
-              <h1 class="display-4">Portfolio</h1>
-              <segment class="row">
-                <div class="col-sm-12">
-                  <hr class="my-4" />
-                </div>
-              </segment>
-              <segment class="row">
-                <figure class="col-sm-6" style="position: relative;">
-                  <img
-                    src="https://www.placecage.com/350/350"
-                    alt="PlaceCage"
-                    style="width: 100%;"
-                  />
-                  <p class="img-text">Portfolio Feature 1</p>
-                </figure>
-                <figure class="col-sm-6" style="position: relative;">
-                  <img
-                    src="https://www.placecage.com/350/350"
-                    alt="PlaceCage"
-                    style="width: 100%;"
-                  />
-                  <p class="img-text">Portfolio Feature 2</p>
-                </figure>
-                <figure class="col-sm-6" style="position: relative;">
-                  <img
-                    src="https://www.placecage.com/350/350"
-                    alt="PlaceCage"
-                    style="width: 100%;"
-                  />
-                  <p class="img-text">Portfolio Feature 3</p>
-                </figure>
-                <figure class="col-sm-6" style="position: relative;">
-                  <img
-                    src="https://www.placecage.com/350/350"
-                    alt="PlaceCage"
-                    style="width: 100%;"
-                  />
-                  <p class="img-text">Portfolio Feature 4</p>
-                </figure>
-                <figure class="col-sm-6" style="position: relative;">
-                  <img
-                    src="https://www.placecage.com/350/350"
-                    alt="PlaceCage"
-                    style="width: 100%;"
-                  />
-                  <p class="img-text">Portfolio Feature 5</p>
-                </figure>
-              </segment>
-              <!-- Jumbotron ends here -->
+          <div class="col-sm-6 port-col">
+            <img
+              src="Assets/03-javascript-homework-demo.png"
+              alt="Coding Quiz Picture"
+            />
+            <p class="snippet">
+              A random password generator with custom fields!
+            </p>
+            <div class="div">
+              <a
+              href="https://bread-w.github.io/gt-javascript-pwgenerator-hw/"
+              target="_blank"
+              class="card-link"
+              >Deployed Web-App</a
+            >
+            <a href="https://github.com/bread-w/gt-javascript-pwgenerator-hw"
+            target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
             </div>
           </div>
+          <div class="col-sm-6 port-col">
+            <img
+              src="Assets/weather-app-frontpage.png"
+              alt="Weather Forecast ScreenShot"
+            />
+            <p class="snippet">
+              A weather app for local weather, and the 5-day forecast!
+            </p>
+            <div class="div">
+              <a
+              href="https://bread-w.github.io/gt-server-side-apis-hw/"
+              target="_blank"
+              class="card-link"
+              >Deployed Web-App</a
+            >
+            <a href="https://github.com/bread-w/gt-server-side-apis-hw"
+            target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            </div>
+
+          </div>
         </segment>
-        <!-- Content ends here -->
-      </section>
-      <!-- Container ends here -->
-    </main>
-    <footer>
-      <p class="footer">
-        Copyright: Brad Williams
-      </p>
-      <p class="email"><a href="mailto:jb.wms89@gmail.com">jb.wms89@gmail.com</a></p>
-    </footer>
+        <segment class="row">
+          <div class="col-sm-6 port-col">
+            <img src="Assets/05-third-party-apis-homework-demo.gif" alt="Work Planner ScreenShot" />
+            <p class="snippet">
+              A work day scheduler app for the organized professional.
+            </p>
+            <div class="div">
+              <a
+              href="https://bread-w.github.io/gt-third-party-apis-hw/"
+              target="_blank"
+              class="card-link"
+              >Deployed Web-App</a
+            >
+            <a href="https://github.com/bread-w/gt-third-party-apis-hw" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            </div>
+ 
+          </div>
+          <div class="col-sm-6 port-col">
+            <img src="Assets/freezERimg.png" alt="Work Planner ScreenShot" />
+            <p class="snippet">
+              A frosty app for finding that brr..fect ice cream cone.
+            </p>
+            <div class="div">
+              <a
+              href="https://bread-w.github.io/gt-freezER/"
+              class="card-link"
+              target="_blank"
+              >Deployed Web-App</a
+            >
+            <a href="https://github.com/bread-w/gt-freezER"
+            target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            </div>
+
+          </div>
+        </segment>
+        <segment class="row">
+          <div class="col-sm-6 port-col">
+            <img src="Assets/Quiz.png" alt="Work Planner ScreenShot" />
+            <p class="snippet">
+              A coding quiz made with javascript.
+            </p>
+            <div class="div">
+              <a
+              href="https://bread-w.github.io/gt-web-apis-code-quiz-hw/"
+              class="card-link"
+              target="_blank"
+              >Deployed Web-App</a
+            >
+            <a href="https://github.com/bread-w/gt-web-apis-code-quiz-hw"
+            target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            </div>
+
+          </div>
+        </segment>
+      </main>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

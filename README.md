@@ -10,13 +10,13 @@
 
 ## Installation
 
-Clone the GitHub repository and open the index.html in the default broswer (google chrome)
+Clone the GitHub repository and open the index.html in the default browser (google chrome)
 
 ## Usage
 
-![Brad William's About Me](./Assets/brad-williams-about.png)
-![Brad William's Portfolio](./Assets/brad-williams-portfolio.png)
-![Brad William's About Me](./Assets/brad-williams-contact.png)
+![Brad William's About Me]()
+![Brad William's Portfolio]()
+![Brad William's About Me]()
 
 ## Credits
 
