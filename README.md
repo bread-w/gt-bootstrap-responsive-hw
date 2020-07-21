@@ -14,9 +14,9 @@ Clone the GitHub repository and open the index.html in the default browser (goog
 
 ## Usage
 
-![Brad William's About Me]()
-![Brad William's Portfolio]()
-![Brad William's About Me]()
+![Brad William's About Me](/Assets/img/aboutMe.png)
+![Brad William's Portfolio](/Assets/img/portfolio.png)
+![Brad William's Contact](/Assets/img/contact.png)
 
 ## Credits
 
